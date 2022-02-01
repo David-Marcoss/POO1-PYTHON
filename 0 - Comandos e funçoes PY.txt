@@ -1,0 +1,27 @@
+Comandos/funçoes
+
+len(var) // verifica a quantidade de itens dentro de variaveis compostas
+sorted(var) ou var.sort() // ordena variaveis compostas crescente
+var.sort(reverse = True) // ordena variaveis compostas descrescente
+var.count(1) // verifica a frequencia do valor dentro de variavei compostas
+var.index(3) // faz um busca e mostra o indice do valor buscado
+text.upper() // trasnforma letras em maiusculas
+text.lower() // trsforma letras em minusculas
+max(var[i]) ou max(11,25,93) // dado uma sequencia de numeros retorna o maior valores entre eles
+min(var[i]) ou max(11,25,93) // dado uma sequencia de numeros retorna o menor valores entre eles
+sum(var[i]) ou max(11,25,93) // dado uma sequencia de numeros retorna o soma valores entre eles
+
+
+Listas:
+
+num.append(1) // adiciona um numero no final da lista 
+num.insert(9,10) // insere um novo valor em qualque posiçao da lista (indice,valor)
+num.pop(4) // remove um valor na lista com base no indice passado
+num.remove(9) // remove um valor na lista com base no valor passado
+
+dicionarios:
+
+var.values()  // mostra todos os valores dentro do dicionario
+var.keys()   // mostra todos as chaves(indices) do dicionario
+var.items() // mostra todos as chaves(indices) e valores do dicionario
+var.copy() //  realisa a copia do dicionario para outra variaveis compostas(lista,tuplas) 
